@@ -40,7 +40,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Get Build Artifacts
+      - name: Get Build Artifact
         uses: actions/download-artefact@v3
         with:
           name: dist-files
